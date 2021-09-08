@@ -17,6 +17,15 @@ Due to the implications and applications of SOC has into neuroscience and comput
 
 ## Example Output
 
+Note the Power-Law Curve. This simulation reproduces the findings in the report by ***Kalinin et. al*** mentioned above! This simulation was run with Parameters set to:
+
+- **N = M = 10**
+- **T = 1500**
+- **randomise_drop = True**
+- **starting_height = 3**
+
+
+
 ![](output1.png)
 
 **The live version looks much better!**
@@ -27,7 +36,7 @@ Due to the implications and applications of SOC has into neuroscience and comput
 
 ## Usage
 
-##### (**Optional**) Modify the Sandpile Model Parameters in the file **sand_soc.py**
+#### 1. (**Optional**) Modify the Sandpile Model Parameters in the file **sand_soc.py**
 
 - **N:** number of rows in sand array
 - **M:** number of coloumns in sand array
@@ -40,7 +49,7 @@ Due to the implications and applications of SOC has into neuroscience and comput
 - **clim:** upper limit for colourmap
 - **print_pause:** time to pause between updating plots
 
-##### Run the program with the command
+#### 2. Run the program with the command
 
 ```
 $ python3 sand_soc.py
